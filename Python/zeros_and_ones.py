@@ -69,8 +69,9 @@ Print the array built using numpy.zeros and numpy.ones tools and you get the res
 '''
 import numpy as np
 s=list(map(int,input().split()))
-z1=np.zeros([s[0],s[1],s[2]],dtype='int')
+
+z1=np.zeros((s),dtype='int')
 print(z1)
 
-z2=np.ones([s[0],s[1],s[2]],dtype='int')
+z2=np.ones((s),dtype='int')
 print(z2)
